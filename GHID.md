@@ -10,7 +10,7 @@
 
 ## Ce ai nevoie
 
-Doar Claude Code, deschis în VS Code. Restul îl instalăm împreună în primele minute.
+Doar Claude Code, deschis în VS Code. Restul instalezi în Partea 0.
 
 ## Ce iei cu tine la final
 
@@ -20,7 +20,7 @@ Doar Claude Code, deschis în VS Code. Restul îl instalăm împreună în prime
 
 ---
 
-## Partea 0. Pregătirea (aproximativ 10 minute)
+## Partea 0. Pregătirea
 
 Deschizi VS Code într-un folder oarecare (de exemplu `Documente`), pornești Claude Code și dai promptul:
 
@@ -56,7 +56,7 @@ E o flotă mică, construită la fel ca șablonul de pe 2 noiembrie: fiecare age
 
 ---
 
-## Partea 1. De ce (aproximativ 20 de minute)
+## Partea 1. De ce
 
 ### Ce s-a întâmplat în flota de producție
 
@@ -75,7 +75,7 @@ Modelul citește promptul și, de cele mai multe ori, îl respectă. „De cele 
 Când agentul scrie „am verificat, totul e în regulă”, descrie ce crede că a făcut. Poate fi adevărat, poate fi înmuiat, poate fi greșit fără rea intenție: agentul nu vede ce s-a schimbat în afara turei lui. Un fișier scris de script, cu data și rezultatul, e o dovadă pe care o poate citi oricine. (Din `docs/PRINCIPII.md`, în șablonul de flotă de pe 2 noiembrie.)
 
 **3. Un verificator pe care nu l-ai văzut picând nu e verificat.**
-Un script care spune mereu „trece” arată exact ca un script bun. Singurul fel în care afli că prinde greșeala e să i-o dai intenționat și să-l vezi oprind-o. De aceea, în atelier, exemplul rău se scrie înaintea scriptului.
+Un script care spune mereu „trece” arată exact ca un script bun. Singurul fel în care afli că prinde greșeala e să i-o dai intenționat și să-l vezi oprind-o. De aceea, mai jos, exemplul rău se scrie înaintea scriptului.
 
 ### Cele trei trepte ale garanției
 
@@ -87,11 +87,11 @@ Același script poate fi rulat de trei „persoane” diferite, iar asta schimb�
 | 2 | orchestratorul, la predare, citind chitanța | un fapt: predarea nu trece fără chitanță bună |
 | 3 | un hook, automat | o barieră: nimeni nu poate ocoli scriptul |
 
-Azi construiești treptele 1 și 2. Treapta 3 o arată Dănuț, demonstrativ, pentru T3.
+Aici construiești treptele 1 și 2. Treapta 3 e descrisă la finalul Părții 5.
 
 ---
 
-## Partea 2. Când merită un script (aproximativ 15 minute)
+## Partea 2. Când merită un script
 
 Nu orice regulă devine cod. Cele cinci semnale de mai jos spun când merită.
 
@@ -109,9 +109,9 @@ Cifrele din brief (1.300 de caractere, 30 de cuvinte pe slide) sunt alese pentru
 
 ---
 
-## Partea 3. Demonstrația (Dănuț, aproximativ 10 minute)
+## Partea 3. Verificatoarele gata făcute, pe exemple
 
-Dănuț rulează verificatoarele gata făcute din `rezerva/` pe exemplele cu greșeli și pe cele bune. Poți rula și tu, în fereastra principală:
+Rulezi verificatoarele gata făcute din `rezerva/` pe exemplele cu greșeli și pe cele bune. În fereastra principală:
 
 ```
 Rulează, pe rând, și arată-mi ieșirea fiecăruia și codul de ieșire:
@@ -133,7 +133,7 @@ Uită-te la al treilea rezultat. Linkul greșit nu l-ar fi prins nici verificato
 
 ---
 
-## Partea 4. Cei cinci pași, pe Copywriter (aproximativ 60 de minute)
+## Partea 4. Cei cinci pași, pe Copywriter
 
 Lucrezi în fereastra principală.
 
@@ -206,7 +206,7 @@ Arată-mi diferența înainte să salvezi.
 
 ---
 
-## Partea 5. Sabotajul controlat și treapta 2 (aproximativ 35 de minute)
+## Partea 5. Sabotajul controlat și treapta 2
 
 Acum verifici dacă flota oprește o greșeală care a ajuns totuși la predare.
 
@@ -257,15 +257,13 @@ Copywriterul a raportat: „Postarea e gata, în livrabile/postare.md.” Contin
 
 **Criteriu de succes:** ai văzut aceeași postare greșită trecând la sabotajul 1 și oprită la sabotajul 2. Singura diferență dintre cele două e pasul 5b.
 
-### Treapta 3 (demonstrație Dănuț, pentru T3)
+### Treapta 3 (opțional)
 
 Același verificator, legat de un hook: scriptul rulează automat la fiecare scriere în `livrabile/`, fără să depindă de cineva care să-și amintească să-l ruleze.
 
 ---
 
-## Închiderea (aproximativ 10 minute)
-
-### Tema, până pe 24 noiembrie
+## Tema, până pe 24 noiembrie
 
 Încă o regulă mutată în cod, cu aceiași cinci pași. Două variante:
 - pe mini-flotă: o regulă a Designerului (exact 5 slide-uri, maxim 30 de cuvinte pe slide), cu corectura din `designer/memorie/corecturi.md` ca exemplu rău;
@@ -288,7 +286,7 @@ Obligatoriu: exemplul rău văzut picând. Aduci la atelierul următor ieșirea 
 
 ## Surse
 
-- Povestea de deschidere: analiza rulărilor flotei de producție a lui Dănuț, 4-9 noiembrie 2026.
+- Povestea din Partea 1: analiza rulărilor flotei de producție a lui Dănuț, 4-9 noiembrie 2026.
 - „O regulă scrisă în prompt e o rugăminte...”: skill-ul `deterministic-vs-llm`, pasul 5 (atelierul din 27 octombrie).
 - Raport și chitanță, verificarea după cine vede: `sablon-flota-agenti/docs/PRINCIPII.md` (atelierul din 2 noiembrie).
 - Mini-flota și sabotajul: testate cap-coadă pe 15 noiembrie 2026 (verificatoarele, pașii 3-5, orchestratorul înainte și după pasul 5b, cu Claude Sonnet).
