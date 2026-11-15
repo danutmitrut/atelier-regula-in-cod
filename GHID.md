@@ -1,4 +1,6 @@
-# Ghid de atelier: de la regulă în prompt la verificator în cod
+# Agentul zice că e gata. Cum verifici că chiar e?
+
+*Construiești pas cu pas verificarea care prinde linkul greșit, textul prea lung sau fișierul lipsă, și o legi de flotă, ca nicio greșeală de felul ăsta să nu mai treacă mai departe.*
 
 **Data:** luni, 16 noiembrie 2026, 18:30-21:30
 **Acces:** T2, T3

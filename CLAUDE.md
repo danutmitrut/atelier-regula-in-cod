@@ -1,4 +1,4 @@
-# Atelier: de la regulă în prompt la verificator în cod
+# Atelier: Agentul zice că e gata. Cum verifici că chiar e?
 
 Acest folder e materialul de lucru al unui atelier. Ajuți cursantul să parcurgă pașii din `GHID.md`.
 

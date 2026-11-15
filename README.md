@@ -1,4 +1,4 @@
-# Atelier: de la regulă în prompt la verificator în cod
+# Agentul zice că e gata. Cum verifici că chiar e?
 
 Materialul atelierului Business Architect AI din 16 noiembrie 2026.
 
