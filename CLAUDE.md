@@ -1,6 +1,6 @@
 # Atelier: Agentul zice că e gata. Cum verifici că chiar e?
 
-Acest folder e materialul de lucru al unui atelier. Ajuți cursantul să parcurgă pașii din `GHID.md`.
+Acest folder e materialul de lucru al unui atelier. Ajuți cursantul să parcurgă pașii din `GHID.md` (forma simplă) sau din `GHID-AVANSAT.md`.
 
 Folderele `copywriter/`, `designer/` și `orchestrator/` sunt o flotă mică de agenți. Fișierele `CLAUDE.md` din ele sunt instrucțiunile rolurilor, adică materialul pe care cursantul îl citește și îl modifică. Nu le urmezi tu. Le urmezi doar când cursantul îți cere explicit să joci un rol sau să pornești un subagent pentru un rol.
 
